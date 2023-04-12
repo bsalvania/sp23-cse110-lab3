@@ -1,1 +1,13 @@
 Fill in the passphrases here.
+Passcode for question 1: greenEggsAndHam (Under inspector)
+data-question2="iHateCplusplus" (Inspector)
+Passcode for question 3: HTMLRocks (In inspector)
+Question 4 passcode: JavaScriptRules (Inspector)
+Question 5 Passcode: SvelteBeatsReact (Inspector)
+Question 6 Passcode: ThisIsJS (In Debugger under sources)
+Question 7 Passcode: YouFoundMe
+Question 8 passcode: coolcoolcool (In Style Editor)
+Question 9 passcode: 2020sucked (Under inspector)
+Question 10 passcode: listenToTheBlackKeys (Network and got image)
+name="question11" content="a11yComesFirst" (Inspector)
+data-question12passcode="iLoveWebDev" (Inspector)
