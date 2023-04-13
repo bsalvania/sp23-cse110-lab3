@@ -128,7 +128,7 @@
         <h2 id="pictures">Pictures</h2>
         <img 
             src="android-chrome-192x192.png"
-            alt="Picture of kirby waving, who is this website's favicon."
+            alt="Picture of Kirby waving, who is this website's favicon."
             width="150"
         />
 
@@ -162,6 +162,33 @@
                 <label for="no">No</label><br>
             </fieldset>
         </form>
+        <label for="about-you">Tell us about you:</label>
+        <textarea id="about-you" name="about-you" rows="5" cols="45">I'm a CS student at UCSD :).</textarea>
+        <hr>
+        <label for="college-choice">Choose your college:</label>
+        <input list="colleges" id="college-choice" name="college-choice">
+
+        <datalist id="colleges">
+            <option value="Revelle">
+            <option value="Muir">
+            <option value="TMC">
+            <option value="Warren">
+            <option value="ERC">
+            <option value="Sixth">
+            <option value="Seventh">
+        </datalist>
+        
+        
+        <hr>
+        <label for="kirby-select">Do you like Kirby?</label>
+
+        <select name="yes-no" id="kirby-select">
+            <option value="">Please choose an option</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select>
+        <hr>
+        <button>Submit</button>
     </footer>
 
 </body>
