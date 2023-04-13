@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gabe's Meeting Minutes</title>
-    <link rel="icon" href="favicon.ico" />
+    <link rel="icon" href="favicon.ico">
 </head>
 <body>
     <header>
@@ -30,65 +30,22 @@
             </ol>
         </nav>
     </header>
-    <main>
-        <hr>
-        <h2>Elements</h2>
-        <ul>
-            <li><input type="checkbox" /> title</li>
-            <li><input type="checkbox" /> meta</li>
-            <li><input type="checkbox" /> link</li>
-            <li><input type="checkbox" /> main</li>
-            <li><input type="checkbox" /> header</li>
-            <li><input type="checkbox" /> footer</li>
-            <li><input type="checkbox" /> nav</li>
-            <li><input type="checkbox" /> h1, h2, h3</li>
-            <li><input type="checkbox" /> section</li>
-            <li><input type="checkbox" /> div</li>
-            <li><input type="checkbox" /> span</li>
-            <li><input type="checkbox" /> hr</li>
-            <li><input type="checkbox" /> p</li>
-            <li><input type="checkbox" /> ul</li>
-            <li><input type="checkbox" /> ol</li>
-            <li><input type="checkbox" /> li</li>
-            <li><input type="checkbox" /> b</li>
-            <li><input type="checkbox" /> strong</li>
-            <li><input type="checkbox" /> i</li>
-            <li><input type="checkbox" /> em</li>
-            <li><input type="checkbox" /> a</li>
-            <li><input type="checkbox" /> br</li>
-            <li><input type="checkbox" /> img</li>
-            <li><input type="checkbox" /> audio</li>
-            <li><input type="checkbox" /> video</li>
-            <li><input type="checkbox" /> details</li>
-            <li><input type="checkbox" /> summary</li>
-            <li><input type="checkbox" /> form</li>
-            <li><input type="checkbox" /> fieldset</li>
-            <li><input type="checkbox" /> input - checkbox</li>
-            <li><input type="checkbox" /> input - radio</li>
-            <li><input type="checkbox" /> input - text</li>
-            <li><input type="checkbox" /> input - date</li>
-            <li><input type="checkbox" /> textarea</li>
-            <li><input type="checkbox" /> datalist</li>
-            <li><input type="checkbox" /> select</li>
-            <li><input type="checkbox" /> option</li>
-            <li><input type="checkbox" /> button</li>
-          </ul>
-          
+    <main>          
         <hr>
         <h2 id="attendance">Attendance</h2>
         <p><strong>Check</strong> your box if you are <em>present</em> during the meeting.</p>
         <ul>
-            <li><input type="checkbox" /> Brevin Gabriel Salvania</li>
-            <li><input type="checkbox" /> Placeholder name 2</li>
-            <li><input type="checkbox" /> Placeholder name 3</li>
-            <li><input type="checkbox" /> Placeholder name 4</li>
-            <li><input type="checkbox" /> Placeholder name 5</li>
-            <li><input type="checkbox" /> Placeholder name 6</li>
-            <li><input type="checkbox" /> Placeholder name 7</li>
-            <li><input type="checkbox" /> Placeholder name 8</li>
-            <li><input type="checkbox" /> Placeholder name 9</li>
-            <li><input type="checkbox" /> Placeholder name 10</li>
-          </ul>
+            <li><input type="checkbox"> Brevin Gabriel Salvania</li>
+            <li><input type="checkbox"> Placeholder name 2</li>
+            <li><input type="checkbox"> Placeholder name 3</li>
+            <li><input type="checkbox"> Placeholder name 4</li>
+            <li><input type="checkbox"> Placeholder name 5</li>
+            <li><input type="checkbox"> Placeholder name 6</li>
+            <li><input type="checkbox"> Placeholder name 7</li>
+            <li><input type="checkbox"> Placeholder name 8</li>
+            <li><input type="checkbox"> Placeholder name 9</li>
+            <li><input type="checkbox"> Placeholder name 10</li>
+        </ul>
 
         <hr>
         <h2 id="agenda">Agenda</h2>
@@ -100,7 +57,7 @@
         <h2 id="business">Unfinished/New Business</h2>
         <section>
             <h3>Unfinished business from last meeting</h3>
-            <p>Thankfully, there is <i>no</i> unfinished business from the last meeting, since this is actually the first meeting.</p>
+            <p>Thankfully, we have <i>no</i> unfinished business from the last meeting, since this is actually the first meeting.</p>
         </section>
         <section>
             <h3>New business to be addressed</h3>
@@ -130,16 +87,16 @@
             src="android-chrome-192x192.png"
             alt="Picture of Kirby waving, who is this website's favicon."
             width="150"
-        />
+        >
 
         <hr>
         <h2 id="video/audio">Video/Audio</h2>
-        <video controls width="250" height="250" controls>
-            <source src="/Pretend Meeting.mp4" type="video/mp4">
+        <video controls width="250" height="250">
+            <source src="/Pretend_Meeting.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <audio controls>
-            <source src="/Pretend Meeting.mp3" type="audio/mpeg">
+            <source src="/Pretend_Meeting.mp3" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
     </main>
@@ -149,12 +106,14 @@
         <form>
             <fieldset>
                 <legend>If your name is not on the attendance list:</legend>
-                <label for="first name">First name:</label><br>
-                <input type="text" name="first name" id="first name"><br>
-                <label for="last name">Last name:</label><br>
-                <input type="text" name="last name" id="last name"><br>
+                <label for="first-name">First name:</label><br>
+                <input type="text" name="first name" id="first-name"><br>
+                <label for="last-name">Last name:</label><br>
+                <input type="text" name="last-name" id="last-name"><br>
                 <label for="date">Date:</label><br>
                 <input type="date" name="date" id="date"><br>
+            </fieldset>
+            <fieldset>
                 <legend>Did you attend the meeting?</legend>
                 <input type="radio" id="yes" name="attendance" value="Yes">
                 <label for="yes">Yes</label><br>
