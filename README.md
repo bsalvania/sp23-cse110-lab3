@@ -1,3 +1,3 @@
-# Lab 2 - Starter
+# sp23-cse110-lab3
 
-[Link](https://bsalvania.github.io/Lab2_Starter/) to URL of my published site.
+[Link](https://bsalvania.github.io/sp23-cse110-lab3/) to URL of my published site.
