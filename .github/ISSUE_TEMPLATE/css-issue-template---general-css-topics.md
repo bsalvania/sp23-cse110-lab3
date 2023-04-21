@@ -1,7 +1,7 @@
 ---
 name: CSS Issue Template - General CSS Topics
 about: Template for CSS related issues
-title: "[CSS] [Genera] "
+title: "[CSS] [General] "
 labels: CSS, enhancement
 assignees: bsalvania
 
