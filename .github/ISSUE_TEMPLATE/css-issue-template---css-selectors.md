@@ -8,6 +8,6 @@ assignees: bsalvania
 ---
 
 ### CSS Selector: 
-- [ ] 
-- [ ] 
-- [ ]
+- [ ] Add 
+- [ ] Add 
+- [ ] Add
