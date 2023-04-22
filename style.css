@@ -17,10 +17,18 @@ body {
   
 }
 
-.title {
+/* Change meeting header to new color */
+.meeting {
   color: #CE4F1D;
 }
 
+/* Boxed and centered the title */
+.underover {
+  text-decoration: dashed underline overline;
+  text-align: center
+}
+
+/* Change attendees to new color */
 p.address {
   font-size: 1cm;
   color: rgb(29, 29, 206);
