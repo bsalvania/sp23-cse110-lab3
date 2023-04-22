@@ -14,6 +14,7 @@
 /* Change meeting header to new color */
 .meeting {
   color: #CE4F1D;
+  font-size: 2vw;
 }
 
 /* Boxed and centered the title */
@@ -49,6 +50,7 @@ html {
 
 /* Change margins of h2 text */
 h2 {
+  font-size: 3vh;
   margin-top: 20px;
   margin-right: auto;
   margin-bottom: 30px;
@@ -111,8 +113,8 @@ button:active {
 
 .kirbyslep {
   position: fixed;
-  height: 70px;
-  max-width: 100px;
-  bottom: 5px;
-  right: 5px;
+  height: 50pt;
+  max-width: 65pt;
+  bottom: 5pt;
+  right: 5pt;
 }
