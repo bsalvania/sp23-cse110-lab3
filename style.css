@@ -27,6 +27,7 @@
   font-size: 1cm;
   color: rgb(29, 29, 206);
   display: inline-block;
+  min-width: 500px;
 }
 
 /* Increase font size of web page */
@@ -99,6 +100,7 @@ button:active {
   }
 }
 
+/* Applying sizing and position elements to kirby image */
 .kirbytop {
   position: absolute;
   height: 70px;
@@ -110,7 +112,7 @@ button:active {
 .kirbyslep {
   position: fixed;
   height: 70px;
-  width: 100px;
+  max-width: 100px;
   bottom: 5px;
   right: 5px;
 }
