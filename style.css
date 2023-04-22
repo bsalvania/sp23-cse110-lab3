@@ -42,8 +42,8 @@ html {
   display: none;
 }
 
-/* Experiment with display: block on text */
-.blockex {
+/* Experiment with display: block on text, use selector lists */
+.blockex, h2{
   display: block;
   color: red;
 }
@@ -152,3 +152,35 @@ button:active {
 .item-4 {
   grid-area: 4 / 1 / 5 / 3;
 }
+
+*.cool {
+  color:aqua;
+}
+
+/* Descendant combinator */
+ol li {
+  list-style-type: disc;
+}
+
+/* Child combinator */
+details > summary {
+  background-color: yellow;
+}
+
+/* General sibling combinator */
+div ~ p {
+  text-decoration: underline;
+  color: aqua;
+}
+
+/* Adjacent sibling combinator */
+h3 + p {
+  background-color: magenta;
+}
+
+/* Combining Two Selectors  */
+h2.work {
+  text-decoration:line-through;
+  background-color: indigo;
+}
+

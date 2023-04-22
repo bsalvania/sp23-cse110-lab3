@@ -5,6 +5,11 @@
     body {
         background-color: pink;
     }
+    /* Attribute selector */
+    a[href*="a"] {
+        background-color: rgb(7, 208, 138);
+    }
+
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +23,7 @@
         <img src="Kirby slep.png" alt="Picture of kirby sleeping" class="kirbyslep">
         <div class="meeting">
             <h1 class="underover">Gabe's Minute Meetings</h1>
-            <h2>Meeting topic: Brainstorming</h2>
+            <h1>Meeting topic: Brainstorming</h2>
             <h3>Date: April 12, 2023</h3>
             <h3>Location: Computer Science and Engineering Building</h3>
             <p class="address">
@@ -29,7 +34,7 @@
         </div>
         <nav>
             <ol style="color:palevioletred">
-                <li><a href="#attendance">Attendance</a></li>
+                <li><a href="#attendance"> Attendance</a></li>
                 <li><a href="#agenda">Agenda</a></li>
                 <li><a href="#business">Unfinished/New Business</a></li>
                 <li><a href="#comments">Comments/Questions/Concerns</a></li>
@@ -63,10 +68,11 @@
             <p class="classified">This information is classified and shall not be leaked: 165.247.115.21 (some fake ip address)</p>
         </details>
         <hr>
-        <h2 id="business">Unfinished/New Business</h2>
+        <h2 id="business" class="work">Unfinished/New Business</h2>
         <section>
             <h3>Unfinished business from last meeting</h3>
             <p class="unfinished">Thankfully, we have <i>no</i> unfinished business from the last meeting, since this is actually the first meeting.</p>
+
         </section>
         <section>
             <h3>New business to be addressed</h3>
@@ -79,15 +85,17 @@
         <h2 id="comments">Comments/Questions/Concerns</h2>
         <section>
             <h3>Comments</h3>
-            <p>This website is pretty cool.</p>
+            <p>
+                This website is pretty <span class="cool">cool</span>.
+            </p>
         </section>
         <section>
             <h3>Questions</h3>
-            <p>Who are my teammates?</p>
+            <p>Who are my <span class="cool">teammates</span>?</p>
         </section>
         <section>
             <h3>Concerns</h3>
-            <p>Did we include all the required elements for this page?</p>
+            <p><span class="cool">None</span></p>
         </section>
 
         <hr>
