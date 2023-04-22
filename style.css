@@ -1,8 +1,3 @@
-/* make the background of webpage pink to match Kirby's color */
-body {
-    background-color: pink;
-}
-
 /* Change font of website */
 @font-face {
     font-family: "myFont";
@@ -49,4 +44,37 @@ html {
 .blockex {
   display: block;
   color: red;
+}
+
+/* Change margins of h2 text */
+h2 {
+  margin-top: 20px;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-left: auto;
+}
+
+/* Change margins of h3 text */
+h3 {
+  margin: 0px 0px 20px 10px;
+}
+
+/* Change padding and background color of text for unfinished business section*/
+.unfinished {
+  background-color: aliceblue;
+  padding: 20px 20px 30px 40px;
+}
+
+/* Change borders for new business section*/
+.newbusiness{
+  background-color: blueviolet;
+  border-style: double;
+  border-color:aqua;
+  border-width: 6px;
+  border-radius: 30px;
+}
+
+/* Added padding for kirby image*/
+#kirby {
+  padding: 20px 0px 30px 80px;
 }
