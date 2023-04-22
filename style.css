@@ -13,8 +13,7 @@ body {
 /* emphasize attendance list */
 .ems li {
   font-size: 1.5em;
-  color: hsl(164, 70%, 50%);
-  
+  color: hsl(164, 70%, 50%)
 }
 
 /* Change meeting header to new color */
@@ -28,14 +27,26 @@ body {
   text-align: center
 }
 
-/* Change attendees to new color */
-p.address {
+/* Change address to new size and color */
+.address {
   font-size: 1cm;
   color: rgb(29, 29, 206);
+  display: inline-block;
 }
 
 /* Increase font size of web page */
 html {
   font-size: 20px;
   font-family: "myFont", "Bruno Ace SC";
+}
+
+/* Hide classified info (just using display:none) */
+.classified {
+  display: none;
+}
+
+/* Experiment with display: block on text */
+.blockex {
+  display: block;
+  color: red;
 }
