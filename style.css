@@ -1,4 +1,33 @@
 /* make the background of webpage pink to match Kirby's color */
 body {
     background-color: pink;
+}
+
+/* Change font of website */
+@font-face {
+    font-family: "myFont";
+    src: url("BrunoAceSC-Regular.ttf");
   }
+
+
+/* emphasize attendance list */
+.ems li {
+  font-size: 1.5em;
+  color: hsl(164, 70%, 50%);
+  
+}
+
+.title {
+  color: #CE4F1D;
+}
+
+p.address {
+  font-size: 1cm;
+  color: rgb(29, 29, 206);
+}
+
+/* Increase font size of web page */
+html {
+  font-size: 20px;
+  font-family: "myFont", "Bruno Ace SC";
+}
