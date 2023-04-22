@@ -103,14 +103,14 @@ button:active {
   position: absolute;
   height: 70px;
   width: 100px;
-  top: 0px;
-  right: 0px;
+  top: 5px;
+  right: 5px;
 }
 
 .kirbyslep {
   position: fixed;
   height: 70px;
   width: 100px;
-  bottom: 0px;
-  right: 0px;
+  bottom: 5px;
+  right: 5px;
 }
