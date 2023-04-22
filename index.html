@@ -116,7 +116,7 @@
 
     <hr>
     <footer>
-        <form class="container">
+        <form class="flexcontainer">
             <fieldset>
                 <legend>If your name is not on the attendance list:</legend>
                 <label for="first-name">First name:</label><br>
@@ -134,35 +134,43 @@
                 <label for="no">No</label><br>
             </fieldset>
         </form>
-        <label for="about-you">Tell us about you:</label>
-        <textarea id="about-you" name="about-you" rows="5" cols="45">I'm a CS student at UCSD :).</textarea>
-        <hr>
-        <label for="college-choice">Choose your college:</label>
-        <input list="colleges" id="college-choice" name="college-choice">
 
-        <datalist id="colleges">
-            <option value="Revelle">
-            <option value="Muir">
-            <option value="TMC">
-            <option value="Warren">
-            <option value="ERC">
-            <option value="Sixth">
-            <option value="Seventh">
-            <option value="Eighth">
-        </datalist>
+        <div class="gridcontainer">
+            <div class="item item-1">
+                <label for="about-you">Tell us about you:</label>
+                <textarea id="about-you" name="about-you" rows="5" cols="45">I'm a CS student at UCSD :).</textarea>
+            </div>
+            <div class="item item-2">
+                <label for="college-choice">Choose your college:</label>
+                <input list="colleges" id="college-choice" name="college-choice">
         
-        
-        <hr>
-        <label for="kirby-select">Do you like Kirby?</label>
+                <datalist id="colleges">
+                    <option value="Revelle">
+                    <option value="Muir">
+                    <option value="TMC">
+                    <option value="Warren">
+                    <option value="ERC">
+                    <option value="Sixth">
+                    <option value="Seventh">
+                    <option value="Eighth">
+                </datalist>
+            </div>
+            <div class="item item-3">
+                <label for="kirby-select">Do you like Kirby?</label>
 
-        <select name="yes-no" id="kirby-select">
-            <option value="">Please choose an option</option>
-            <option value="yes">Yes</option>
-            <option value="no">No</option>
-        </select>
-        <hr>
-        <button>Submit</button>
-        <!-- <img src="Kirby slep.png" alt="Picture of kirby sleeping" class="kirbyslep"> -->
+                <select name="yes-no" id="kirby-select">
+                    <option value="">Please choose an option</option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+            <div class="item item-4">
+                <button>Submit</button>
+            </div>
+        </div>
+
+       
+
     </footer>
 
 </body>
