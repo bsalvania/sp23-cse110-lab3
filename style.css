@@ -98,3 +98,19 @@ button:active {
     background-color: rgb(255, 170, 184);
   }
 }
+
+.kirbytop {
+  position: absolute;
+  height: 70px;
+  width: 100px;
+  top: 0px;
+  right: 0px;
+}
+
+.kirbyslep {
+  position: fixed;
+  height: 70px;
+  width: 100px;
+  bottom: 0px;
+  right: 0px;
+}
