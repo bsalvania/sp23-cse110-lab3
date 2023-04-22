@@ -59,7 +59,8 @@ h3 {
   margin: 0px 0px 20px 10px;
 }
 
-/* Change padding and background color of text for unfinished business section*/
+/* Change padding and background color of text for unfinished business 
+  section */
 .unfinished {
   background-color: aliceblue;
   padding: 20px 20px 30px 40px;
@@ -74,7 +75,7 @@ h3 {
   border-radius: 30px;
 }
 
-/* Added padding for kirby image*/
+/* Added padding for kirby image */
 #kirby {
   padding: 20px 0px 30px 80px;
 }
@@ -88,4 +89,12 @@ button:hover {
 button:active {
   color: gold;
   box-shadow: 5px 5px gold;
+}
+
+/* Changes the background-color if the viewport is 1200 pixels wide or wider 
+  Zoom in to change color */
+@media screen and (min-width: 1200px) {
+  body {
+    background-color: rgb(255, 170, 184);
+  }
 }
