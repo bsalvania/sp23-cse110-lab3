@@ -118,3 +118,23 @@ button:active {
   bottom: 5pt;
   right: 5pt;
 }
+
+/* Using flex container */
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: flex-end;
+}
+
+/* .gridcontainer {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto ;
+}
+
+.item-1 {
+  grid-row: 1/ 8;
+  grid-column: 1/ 6;
+} */
