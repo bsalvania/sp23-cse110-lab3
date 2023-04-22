@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+    body {
+        background-color: pink;
+    }
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gabe's Meeting Minutes</title>
@@ -21,7 +26,7 @@
             </p>
         </div>
         <nav>
-            <ol class="">
+            <ol style="color:palevioletred">
                 <li><a href="#attendance">Attendance</a></li>
                 <li><a href="#agenda">Agenda</a></li>
                 <li><a href="#business">Unfinished/New Business</a></li>
@@ -59,11 +64,11 @@
         <h2 id="business">Unfinished/New Business</h2>
         <section>
             <h3>Unfinished business from last meeting</h3>
-            <p>Thankfully, we have <i>no</i> unfinished business from the last meeting, since this is actually the first meeting.</p>
+            <p class="unfinished">Thankfully, we have <i>no</i> unfinished business from the last meeting, since this is actually the first meeting.</p>
         </section>
         <section>
             <h3>New business to be addressed</h3>
-            <p>
+            <p class="newbusiness">
                 We need to address <span class="blockex">lab 3.</span> We need to finish this web page. 
             </p>
         </section>
@@ -85,7 +90,7 @@
 
         <hr>
         <h2 id="pictures">Pictures</h2>
-        <img 
+        <img  id="kirby"
             src="android-chrome-192x192.png"
             alt="Picture of Kirby waving, who is this website's favicon."
             width="150"
