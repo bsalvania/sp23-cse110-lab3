@@ -14,7 +14,7 @@
 /* Change meeting header to new color */
 .meeting {
   color: #CE4F1D;
-  font-size: 2vw;
+  font-size: 1vw;
 }
 
 /* Boxed and centered the title */
@@ -25,7 +25,7 @@
 
 /* Change address to new size and color */
 .address {
-  font-size: 1cm;
+  font-size: 0.8cm;
   color: rgb(29, 29, 206);
   display: inline-block;
   min-width: 500px;
